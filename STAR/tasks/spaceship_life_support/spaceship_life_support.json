@@ -1,0 +1,42 @@
+{
+    "task": "spaceship_life_support",
+    "replies": {
+        "user_hello": "Hello.",
+        "hello": "Hello, how can I help?",
+        "user_spaceship_life_support_ask_help": "We need your help. The life support is failing!",
+        "spaceship_ask_lock_manufacturer": "Please provide the name of the lock manufacturer.",
+        "user_spaceship_life_support_inform_manufacturer": "The lock manufacturer is [LOCK_MANUFACTURER]",
+        "spaceship_ask_colour_top_cable": "Please provide the color of the top cable.",
+        "user_spaceship_life_support_inform_top_colour": "The colour of the top cable is [COLOUR]",
+        "spaceship_ask_colour_second_cable": "Please provide the color of the second cable.",
+        "user_spaceship_life_support_inform_second_colour": "The colour of the second cable is [COLOUR]",
+        "query": "[QUERY]",
+        "db_spaceship_inform_outcome": "[RESULT] APIName = spaceship_life_support ; Message = Successful! Life support was recovered. ; ",
+        "spaceship_inform_outcome": "{message:s}",
+        "user_spaceship_life_support_thanks": "Thanks",
+        "anything_else": "Is there anything else that I can do for you?",
+        "user_spaceship_life_support_goodbye": "Thanks",
+        "spaceship_bye": "Goodbye.",
+        "spaceship_inform_nothing_found": "Unfortunately there are no actions on the that match your search.",
+        "out_of_scope": "I am sorry, I don't quite understand what you mean. I am only able to help you with spaceship life support."
+    },
+    "graph": {
+        "user_hello": "hello",
+        "user_spaceship_life_support_ask_help": "spaceship_ask_lock_manufacturer",
+        "user_spaceship_life_support_inform_manufacturer": "spaceship_ask_colour_top_cable",
+        "user_spaceship_life_support_inform_top_colour": "spaceship_ask_colour_second_cable",
+        "user_spaceship_life_support_inform_second_colour": "query",
+        "db_spaceship_inform_outcome": "spaceship_inform_outcome",
+        "user_spaceship_life_support_thanks": "anything_else",
+        "user_spaceship_life_support_goodbye": "spaceship_bye"
+    },
+    "r_graph": {
+        "user_spaceship_life_support_ask_help": "hello",
+        "user_spaceship_life_support_inform_manufacturer": "spaceship_ask_lock_manufacturer",
+        "user_spaceship_life_support_inform_top_colour": "spaceship_ask_colour_top_cable",
+        "user_spaceship_life_support_inform_second_colour": "spaceship_ask_colour_second_cable",
+        "user_spaceship_life_support_thanks": "spaceship_inform_outcome",
+        "user_spaceship_life_support_goodbye": "anything_else",
+        "db_spaceship_inform_outcome": "query"
+    }
+}
